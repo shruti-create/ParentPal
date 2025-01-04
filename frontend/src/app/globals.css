@@ -1,12 +1,22 @@
 /* Global Styles */
+
+/* for our font  - want to use inter (responsive and changes size as needed)*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
 :root {
-  --primary-color: #7AB2D3;
+  --primary-color: #78CDD7;
   --text-color: white;
   --nav-text-color: black;
   --nav-bg-color: white;
   --tile-bg-color: #f9f9f9;
   --tile-border-color: #ddd;
   --shadow-color: rgba(0, 0, 0, 0.1);
+  --accent-text-color: #211572;
 }
 
 
@@ -42,6 +52,7 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  padding-top: 2vh;
 }
 
 nav ul li {
@@ -51,7 +62,7 @@ nav ul li {
 nav ul li a {
   color: var(--nav-text-color);
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0.5rem;
   display: block;
   border-radius: 4px;
@@ -72,10 +83,10 @@ nav ul li a:hover {
   background-color: var(--tile-bg-color);
   border: 1px solid var(--tile-border-color);
   border-radius: 2vh;
-  padding: 2rem;
+  padding-left: 2rem;
   box-shadow: 0 4px 10px var(--shadow-color);
-  width: 76vw;
-  height: 79vh;
+  width: 78vw;
+  height: 86vh;
   top:11vh; 
   left:18vw;
   position:fixed;
@@ -98,4 +109,23 @@ nav ul li a:hover {
   margin-right: 0.5rem; 
   color: black; 
   width: 1.5vw
+}
+
+.outline-button {
+  background-color: transparent;
+  border: 2px solid var(--accent-text-color);
+  color: var(--accent-text-color);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-right:2vw;
+}
+
+.outline-button:hover {
+  background-color: var(--accent-text-color);
+  color: white;
 }

@@ -6,7 +6,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  const premium = true; // set to true for a premium user (just for us to check)
+  const premium = false; // set to true for a premium user (just for us to check)
 
   return (
     <html lang="en">
