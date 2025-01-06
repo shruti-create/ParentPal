@@ -12,6 +12,7 @@ export default function Home() {
 
       <button className="outline-button">Log in.</button>
 
+      
       <br/>
       <br/>
 
@@ -20,11 +21,17 @@ export default function Home() {
       <br/>
       <ul>
         <li>Educational Resources: Access expert-led “how-to” videos and articles to guide you through the early stages of parenting with confidence.</li>
+        <br/>
         <li>Anonymous Confession Section: A safe space to share your parenting struggles and concerns without judgment—no comments, just understanding.</li>
+        <br/>
         <li>Advice from Fellow Parents: Ask questions, get advice, and share your experiences with a community of parents who understand.</li>
+        <br/>
         <li>Budget Upcycling: Find affordable baby items from parents who are passing along gently used goods—perfect for budget-conscious families!</li>
+        <br/>
         <li>Doctor’s Answer Forum: A place to get trusted health-related advice directly from pediatricians. (Premium service unless we can offer volunteer support.)</li>
+        <br/>
         <li>Virtual Support Groups: Join groups focused on specific parenting challenges, moderated by professionals who can offer guidance. (Premium service unless we can offer volunteer support.)</li>
+        <br/>
         <li>Therapist Directory: Explore a list of therapists who specialize in family and parenting issues. You can read reviews, find the right professional for you, and book appointments directly. (Paid service on an individual basis.)</li>
       </ul>
       <br/>
