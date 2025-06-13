@@ -11,9 +11,19 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header className="header">
-          <h1>ParentPal</h1>
-        </header>
+      <header className="header">
+        <div className="header-container">
+          <h2 className="logo">ParentPal</h2>
+          <div className="search-bar-container">
+            <input
+              type="text"
+              className="search-bar"
+              placeholder="Search ..."
+            />
+          </div>
+          <button className="sign-in-button">Sign In</button>
+        </div>
+      </header>
         <body>
           <nav>
             <ul>
